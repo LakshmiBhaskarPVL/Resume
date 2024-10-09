@@ -5,7 +5,7 @@ body {
     background-color: #f0f0f0;
     color: #333;
     line-height: 1.6;
-    animation: fadeIn 2s ease-in;
+    animation: fadeIn 0.5s ease-in;
 }
 
 header {
@@ -13,7 +13,7 @@ header {
     color: #fff;
     padding: 10px 0;
     text-align: center;
-    animation: slideDown 1s ease-out;
+    animation: slideDown 0.5s ease-out;
 }
 
 header h1 {
@@ -25,7 +25,7 @@ header h1 {
     width: 80%;
     margin: auto;
     overflow: hidden;
-    animation: fadeIn 2s ease-in;
+    animation: fadeIn 0.5s ease-in;
 }
 
 img {
@@ -35,7 +35,7 @@ img {
     width: 150px;
     height: 150px;
     object-fit: cover;
-    animation: zoomIn 1.5s ease-in-out;
+    animation: zoomIn 0.5s ease-in-out;
 }
 
 h1, h3 {
@@ -57,7 +57,7 @@ ul li {
     margin: 5px 0;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    animation: fadeInUp 1s ease-in-out;
+    animation: fadeInUp 0.5s ease-in-out;
 }
 
 table {
@@ -80,7 +80,7 @@ hr {
 .links {
     text-align: center;
     margin: 20px 0;
-    animation: fadeIn 2s ease-in;
+    animation: fadeIn 0.5s ease-in;
 }
 
 .links a {
