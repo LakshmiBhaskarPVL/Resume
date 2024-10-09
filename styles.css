@@ -1,3 +1,28 @@
+/* Add this CSS to your styles.css */
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    animation: slideDown 0.5s ease-out;
+}
+
+.header-image {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+header h1, header h3 {
+    margin: 0;
+}
+
+/* Existing CSS */
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -6,19 +31,6 @@ body {
     color: #333;
     line-height: 1.6;
     animation: fadeIn 0.5s ease-in;
-}
-
-header {
-    background: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-    animation: slideDown 0.5s ease-out;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 2.5em;
 }
 
 .container {
