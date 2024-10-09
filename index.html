@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhaskar's Personal Site</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            color: #333;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        .header-content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center; /* Ensure text alignment is centered */
+    }
+
+        .header-image {
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+    }
+
+        /* Animation Keyframes */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideInUp {
+            from { transform: translateY(50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            animation: fadeIn 2s ease-in;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        img {
+            display: block;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            animation: slideInUp 1.5s ease-in-out;
+        }
+
+        h1, h3 {
+            text-align: center;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        p, ul, table {
+            margin: 20px 0;
+            animation: fadeIn 1.5s ease-in;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            background: #fff;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        table td {
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        hr {
+            border: 0;
+            height: 1px;
+            background: #333;
+            margin: 40px 0;
+            animation: slideInUp 1.2s ease-in-out;
+        }
+
+        .links {
+            text-align: center;
+            margin: 20px 0;
+            animation: fadeIn 2s ease-in;
+        }
+
+        .links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+            padding: 10px 20px;
+            border: 1px solid #333;
+            border-radius: 5px;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        .links a:hover {
+            background: #333;
+            color: #fff;
+        }
+
+        /* Additional Skill Styles */
+        .skill-level {
+            width: 100px;
+            height: 20px;
+            background-color: #e0e0e0;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-left: 10px;
+        }
+
+        .skill-bar {
+            height: 100%;
+            border-radius: 10px;
+            background-color: #333;
+            width: 0;
+            animation: fillSkill 2s ease-in-out forwards;
+        }
+
+        @keyframes fillSkill {
+            from { width: 0; }
+            to { width: 100%; }
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <img src="header-image.jpg" alt="Profile Picture" class="header-image">
+            <div>
+                <h1>Pappu Venkata Lakshmi Bhaskar</h1>
+                <h3>Senior Java Developer</h3>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <ul></ul>
+        <li>Student at <strong><a href="https://kennedyglobalschool.edu.in/" target="_blank">Kennedy High The Global School</a></strong>, Grade 9</p>
+        <li>Currently working as a Full Stack SysAdmin, Java Developer and SQL DB Admin for OnyxMC and Project Zenith<p>
+        </ul>
+        <hr>
+
+        <h3>What Have I Made?</h3>
+        <ul>
+            <li>An app that opens all my programs with just one click when I start my computer.</li>
+            <li>A bot that keeps my Minecraft server online (using <a href="https://aternos.org" target="_blank">aternos.org</a>).</li>
+            <li>Building this website.</li>
+            <li>Making Discord Bots.</li>
+            <li>Creating games using Unity 3D.</li>
+            <li>Creating animations using Blender.</li>
+            <li>Creating AI models using Python.</li>
+            <li>Full Stack Java</li>
+        </ul>
+
+        <hr>
+
+
+
+        <h1>My Experiences</h1>
+        <table>
+            <tr>
+                <td>2018-2019</td>
+                <td>Completed Python and Started Artificial Intelligence</td>
+            </tr>
+            <tr>
+                <td>2019-2020</td>
+                <td>Unity 3D & 2D Game Development</td>
+            </tr>
+            <tr>
+                <td>2020-2021</td>
+                <td>Ethical Hacking, Web Development, Spanish (Intermediate)</td>
+            </tr>
+            <tr>
+                <td>2022-2023</td>
+                <td>Java Development, DevOps, CI/CD Integrations, Github Actions, Github VersionControl</td>
+            </tr>
+            <tr>
+                <td>2023-Present</td>
+                <td>GitKraken, AI/ML, Neural Networks, </td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <h1>Skills</h1>
+        <ul>
+                <li>🐍  Python</li>
+                <li>🎮 Game Development</li>
+                <li>Artificial Intelligence & Machine Learning</li>
+                <li>Ethical Hacking</li>
+                <li>Full Stack Web Development</li>
+                <li>Spanish (Intermediate)</li>
+                <li>Java Development</li>
+                <li>MySQL DB Management</li>
+                <li>Complete Linux Administration</li>
+                <li>Gradle & Maven</li>
+                <li>CI/CD Integrations</li>
+                <li>Luckperms Management</li>
+                <li>Custom MC Plugins</li>
+
+        </ul>
+        <hr>
+
+        <div class="links">
+            <a href="https://github.com/LakshmiBhaskarPVL/">My Github</a>
+            <h2>Discord : susamogusmovie#l669</h2>
+        </div>
+    </div>
+
+    <script>
+        // JavaScript can be added here for future interactivity
+    </script>
+</body>
+
+</html>
